@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-17T18:30:59+00:00",
+  "requests": 2000,
+  "concurrency": 20,
+  "successful": 2000,
+  "errors": 0,
+  "error_types": {},
+  "workers": 4,
+  "duration_s": 11.69,
+  "throughput_rps": 171.1,
+  "latency_ms": {
+    "mean": 116.65,
+    "p50": 81.09,
+    "p95": 353.72,
+    "p99": 854.99,
+    "max": 1379.54
+  },
+  "machine": "Windows 11 / Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+  "note": "4 uvicorn worker(s), client and server on the same machine"
+}

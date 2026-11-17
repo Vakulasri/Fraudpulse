@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Data & generated artifacts (dataset is ~150 MB - don't commit it)
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+results/loadtest_2*.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
